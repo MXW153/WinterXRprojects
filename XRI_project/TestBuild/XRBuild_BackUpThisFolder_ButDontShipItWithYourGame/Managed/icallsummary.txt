@@ -345,6 +345,7 @@ UnityEngine.Animator::StringToHash_Injected
 UnityEngine.Animator::GetBoneTransformInternal_Injected
 UnityEngine.Animator::get_avatar_Injected
 UnityEngine.Animator::ResetTriggerString_Injected
+UnityEngine.Animator::SetBoolString_Injected
 UnityEngine.Animator::SetFloatID_Injected
 UnityEngine.Animator::SetFloatString_Injected
 UnityEngine.Animator::SetLayerWeight_Injected
