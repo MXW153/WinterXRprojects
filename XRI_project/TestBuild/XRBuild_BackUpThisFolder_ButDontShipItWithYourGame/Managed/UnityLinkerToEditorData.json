@@ -121,7 +121,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/ArcheryPassthrough.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -141,13 +143,17 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/ArcheryPassthrough.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioSource",
-            "scenes": [],
+            "scenes": [
+              "Assets/ArcheryPassthrough.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1048,7 +1054,9 @@
           },
           {
             "name": "MeshCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/ArcheryPassthrough.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1074,7 +1082,9 @@
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/ArcheryPassthrough.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
