@@ -7,6 +7,17 @@
 
 
 
+extern void ObjectSpawner_Update_m9F373E88B27396D6EC93ACFF2EAFFDC63833BDE8 (void);
+extern void ObjectSpawner_BtnPressed_mEB3908F49197E36CD46780A69E819A63E8D33004 (void);
+extern void ObjectSpawner_SpawnObjWithCd_mB12AA0D6180FC6892919BCEC58234F26887A7C42 (void);
+extern void ObjectSpawner_SpawnObj_mF0DBFF7012D566C7D0EE28CA74296CBFA1721CE9 (void);
+extern void ObjectSpawner__ctor_mF75EFE9AB26EAEF6D1995A34FB35C2BDE08A083C (void);
+extern void U3CSpawnObjWithCdU3Ed__7__ctor_m190C7EE28D87109EBADD28975D6B113D5C75E21A (void);
+extern void U3CSpawnObjWithCdU3Ed__7_System_IDisposable_Dispose_m82021DC1871C88C8C675DF8BAE2F1E6781585C7C (void);
+extern void U3CSpawnObjWithCdU3Ed__7_MoveNext_mB59784B4DAC573F12504F88621163ECEF38496E1 (void);
+extern void U3CSpawnObjWithCdU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m32296C19648B539C7797995923CF5DBBBB9F4224 (void);
+extern void U3CSpawnObjWithCdU3Ed__7_System_Collections_IEnumerator_Reset_m5C499DD8D0D3A5B791A86CA4280EFF6F4FC7A9B5 (void);
+extern void U3CSpawnObjWithCdU3Ed__7_System_Collections_IEnumerator_get_Current_mC9884A24BA575582C9E24E72725F080BFFAC7A14 (void);
 extern void Arrow_Awake_m5B60AAB5B76381C2B5DB14A12A5898284158964A (void);
 extern void Arrow_Start_m846685171DBFA6340C8E7614D77ABAAD1D1B50C1 (void);
 extern void Arrow_FixedUpdate_m0C20F7DB2D510A3909B737C9CFBE3B907BB1ED75 (void);
@@ -53,8 +64,19 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[47] = 
+static Il2CppMethodPointer s_methodPointers[58] = 
 {
+	ObjectSpawner_Update_m9F373E88B27396D6EC93ACFF2EAFFDC63833BDE8,
+	ObjectSpawner_BtnPressed_mEB3908F49197E36CD46780A69E819A63E8D33004,
+	ObjectSpawner_SpawnObjWithCd_mB12AA0D6180FC6892919BCEC58234F26887A7C42,
+	ObjectSpawner_SpawnObj_mF0DBFF7012D566C7D0EE28CA74296CBFA1721CE9,
+	ObjectSpawner__ctor_mF75EFE9AB26EAEF6D1995A34FB35C2BDE08A083C,
+	U3CSpawnObjWithCdU3Ed__7__ctor_m190C7EE28D87109EBADD28975D6B113D5C75E21A,
+	U3CSpawnObjWithCdU3Ed__7_System_IDisposable_Dispose_m82021DC1871C88C8C675DF8BAE2F1E6781585C7C,
+	U3CSpawnObjWithCdU3Ed__7_MoveNext_mB59784B4DAC573F12504F88621163ECEF38496E1,
+	U3CSpawnObjWithCdU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m32296C19648B539C7797995923CF5DBBBB9F4224,
+	U3CSpawnObjWithCdU3Ed__7_System_Collections_IEnumerator_Reset_m5C499DD8D0D3A5B791A86CA4280EFF6F4FC7A9B5,
+	U3CSpawnObjWithCdU3Ed__7_System_Collections_IEnumerator_get_Current_mC9884A24BA575582C9E24E72725F080BFFAC7A14,
 	Arrow_Awake_m5B60AAB5B76381C2B5DB14A12A5898284158964A,
 	Arrow_Start_m846685171DBFA6340C8E7614D77ABAAD1D1B50C1,
 	Arrow_FixedUpdate_m0C20F7DB2D510A3909B737C9CFBE3B907BB1ED75,
@@ -103,8 +125,19 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[47] = 
+static const int32_t s_InvokerIndices[58] = 
 {
+	19729,
+	19263,
+	19504,
+	19729,
+	19729,
+	15062,
+	19729,
+	19263,
+	19504,
+	19729,
+	19504,
 	19729,
 	19729,
 	19729,
@@ -157,7 +190,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	47,
+	58,
 	s_methodPointers,
 	0,
 	NULL,

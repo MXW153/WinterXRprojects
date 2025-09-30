@@ -195,6 +195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5267c85d5c0b87a42826fb43814f665d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawner
+  OBJPrefab: {fileID: 1716384522059447324, guid: 0a36ac86432cab749b98513ef82a9e7b, type: 3}
+  SpawnPoint: {fileID: 12658152}
+  cooldown: 1
+  controllerNode: 4
 --- !u!1 &45425208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,6 +3407,10 @@ PrefabInstance:
     - target: {fileID: 2589571369817754473, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
       propertyPath: m_Name
       value: Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2589571369817754473, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5854033015894534605, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10211,6 +10219,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5267c85d5c0b87a42826fb43814f665d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawner
+  OBJPrefab: {fileID: 485370995920976982, guid: bd960ab878715904b824faf2bd69812c, type: 3}
+  SpawnPoint: {fileID: 1620730247}
+  cooldown: 1
+  controllerNode: 4
 --- !u!1 &1637764998
 GameObject:
   m_ObjectHideFlags: 0
