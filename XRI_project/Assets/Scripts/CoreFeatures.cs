@@ -17,7 +17,7 @@ public class CoreFeatures : MonoBehaviour
      * 
      * 
      */
-
+    [Header("Core Audio")]
     public bool AudioSFXSourceCreated { get; set; }
 
     [field: SerializeField]
@@ -25,8 +25,10 @@ public class CoreFeatures : MonoBehaviour
     [field: SerializeField]
     public AudioClip AudioClipOnEnd { get; set; }
 
+
     private AudioSource AudioSource;
 
+    [Header("Core Features")]
     public FeatureUsage featureUsage;
 
 
@@ -45,8 +47,22 @@ public class CoreFeatures : MonoBehaviour
         AudioSFXSourceCreated = true;
     }
 
-    public void Start()
+    protected void PlayOnStart()
     {
+        if(AudioSFXSourceCreated && AudioClipOnStart != null)
+        {
+            AudioSource.clip = AudioClipOnStart;
+            AudioSource.Play();
+            //check for looping audio
+        }
+    }
 
+    protected void PlayOnEnd()
+    {
+        if (AudioSFXSourceCreated && AudioClipOnEnd != null)
+        {
+            AudioSource.clip = AudioClipOnEnd;
+            AudioSource.Play();
+        }
     }
 }
