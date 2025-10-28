@@ -48,6 +48,11 @@ public class DoorFeatures : CoreFeatures
         {
             OpenDoor();
         });
+
+
+        // TEST ONLY
+
+        //OpenDoor();
     }
     public void OpenDoor()
     {
